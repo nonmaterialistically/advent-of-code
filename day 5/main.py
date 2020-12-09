@@ -31,7 +31,6 @@ for line in Lines:
 uidList.sort() #Sort the list now, I'm gonna need it later anyway
 
 print("Part one:", uidList[-1])
-print(uidList[-1])
 
 for i in range(uidList[0], uidList[-1]):
     if i not in uidList:
